@@ -57,7 +57,7 @@ public class questionsPage {
 
         // Question 3
         JLabel question3 = new JLabel("How simple and user-friendly is the software page design?!");
-        question3.setBounds(10, 170, 300, 20);
+        question3.setBounds(10, 170, 500, 20);
 
         JRadioButton radio3_1 = new JRadioButton("1");
         radio3_1.setBounds(10, 200, 100, 20);
@@ -79,7 +79,7 @@ public class questionsPage {
 
         // Question 4
         JLabel question4 = new JLabel("How simple and user-friendly is the software page design?!");
-        question4.setBounds(10, 250, 350, 20);
+        question4.setBounds(10, 250, 500, 20);
 
         JRadioButton radio4_1 = new JRadioButton("1");
         radio4_1.setBounds(10, 280, 100, 20);
