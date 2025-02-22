@@ -12,8 +12,8 @@ public class thankYouPage {
         panel.setBounds(0, 0, 600, 600);
 
         // Create thank you label
-        JLabel thankYouLabel = new JLabel("با تشکر از مشارکت شما!");
-        thankYouLabel.setBounds(10, 10, 200, 20);
+        JLabel thankYouLabel = new JLabel("Thank you for your participation in the survey.");
+        thankYouLabel.setBounds(10, 10, 200, 30);
 
         // Add components to the panel
         panel.add(thankYouLabel);
