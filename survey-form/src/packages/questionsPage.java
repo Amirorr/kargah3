@@ -1,6 +1,7 @@
 package packages;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class questionsPage {
 
@@ -9,9 +10,12 @@ public class questionsPage {
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(null);
+        //creat class for font
+        Font font = new Font("serif" , Font.BOLD, 15);
 
         // Question 1
         JLabel question1 = new JLabel("How appealing is the user interface to you?");
+        question1.setFont(font);
         question1.setBounds(10, 10, 300, 20);
 
         JRadioButton radio1_1 = new JRadioButton("1");
@@ -34,6 +38,7 @@ public class questionsPage {
 
         // Question 2
         JLabel question2 = new JLabel("Is it easy for you to access various facilities?");
+        question2.setFont(font);
         question2.setBounds(10, 90, 300, 20);
 
 
@@ -57,6 +62,7 @@ public class questionsPage {
 
         // Question 3
         JLabel question3 = new JLabel("How simple and user-friendly is the software page design?!");
+        question3.setFont(font);
         question3.setBounds(10, 170, 500, 20);
 
         JRadioButton radio3_1 = new JRadioButton("1");
@@ -79,6 +85,7 @@ public class questionsPage {
 
         // Question 4
         JLabel question4 = new JLabel("How simple and user-friendly is the software page design?!");
+        question4.setFont(font);
         question4.setBounds(10, 250, 500, 20);
 
         JRadioButton radio4_1 = new JRadioButton("1");
@@ -101,6 +108,7 @@ public class questionsPage {
 
         // Next button to go to Page3
         JButton nextButton = new JButton("next page");
+        nextButton.setFont(font);
         nextButton.setBounds(10, 320, 100, 20);
         nextButton.addActionListener(e -> {
             frame.remove(panel);
