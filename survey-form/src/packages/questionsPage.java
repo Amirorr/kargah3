@@ -10,12 +10,14 @@ public class questionsPage {
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
         panel.setLayout(null);
+        //creat class for font
+        Font font = new Font("serif" , Font.BOLD, 15);
 
         //creat class for font
         Font font = new Font("serif" , Font.BOLD, 15);
 
         // Question 1
-        JLabel question1 = new JLabel("چقدر رابط کاربری نرم افزار از نظر شما جذاب است؟");
+            JLabel question1 = new JLabel("چقدر رابط کاربری نرم افزار از نظر شما جذاب است؟");
         question1.setFont(font);
         question1.setBounds(10, 10, 300, 20);
 
@@ -43,7 +45,7 @@ public class questionsPage {
         group1.add(radio1_5);
 
         // Question 2
-        JLabel question2 = new JLabel("آیا دسترسی به امکانات مختلف نرم افزار برای شما آسان است؟");
+            JLabel question2 = new JLabel("آیا دسترسی به امکانات مختلف نرم افزار برای شما آسان است؟");
         question2.setFont(font);
         question2.setBounds(10, 90, 300, 20);
 
@@ -72,7 +74,7 @@ public class questionsPage {
         group2.add(radio2_5);
 
         // Question 3
-        JLabel question3 = new JLabel("چقدر طراحی صفحات نرم افزار ساده و کاربرپسند است؟");
+            JLabel question3 = new JLabel("چقدر طراحی صفحات نرم افزار ساده و کاربرپسند است؟");
         question3.setFont(font);
         question3.setBounds(10, 170, 500, 20);
 
@@ -100,7 +102,7 @@ public class questionsPage {
         group3.add(radio3_5);
 
         // Question 4
-        JLabel question4 = new JLabel("آیا رنگ ها و فونت های استفاده شده در نرم افزار مناسب هستند؟");
+            JLabel question4 = new JLabel("آیا رنگ ها و فونت های استفاده شده در نرم افزار مناسب هستند؟");
         question4.setFont(font);
         question4.setBounds(10, 250, 500, 20);
 
@@ -128,7 +130,7 @@ public class questionsPage {
         group4.add(radio4_5);
 
         // Next button to go to Page3
-        JButton nextButton = new JButton("صفحه بعد");
+            JButton nextButton = new JButton("صفحه بعد");
         nextButton.setFont(font);
         nextButton.setBounds(10, 320, 100, 20);
         nextButton.addActionListener(e -> {
