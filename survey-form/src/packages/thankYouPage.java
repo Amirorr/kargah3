@@ -16,7 +16,7 @@ public class thankYouPage {
         Font font = new Font("serif" , Font.BOLD, 15);
 
         // Create thank you label
-        JLabel thankYouLabel = new JLabel("Thank you for your participation in the survey.");
+        JLabel thankYouLabel = new JLabel("با تشکر از مشارکت شما!");
         thankYouLabel.setFont(font);
         thankYouLabel.setBounds(10, 10, 500, 30);
 
