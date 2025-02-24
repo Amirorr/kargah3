@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Create and configure the main frame
-        JFrame frame = new JFrame("Survay form");
+        JFrame frame = new JFrame("فرم نظر سنجی");
         frame.setSize(600, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,12 +22,12 @@ public class Main {
         Font font = new Font("serif" , Font.BOLD, 15);
 
         // Create title label
-        JLabel title = new JLabel("Survay form");
+        JLabel title = new JLabel("فرم نظر سنجی");
         title.setFont(font);
         title.setBounds(10, 10, 200, 20);
 
         // Create start button
-        JButton startButton = new JButton("start !");
+        JButton startButton = new JButton("شروع !");
         startButton.setFont(font);
         startButton.setBounds(10, 40, 100, 20);
 
