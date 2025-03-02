@@ -131,7 +131,6 @@ public class questionsPage {
         group4.add(radio4_5);
 
         // Next button to go to Page3
-        
         JButton nextButton = new JButton("next page");
         nextButton.setFont(font);
         nextButton.setBounds(10, 320, 100, 20);
