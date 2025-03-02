@@ -6,6 +6,7 @@ import java.awt.*;
 public class questionsPage {
 
     public void create(JFrame frame) {
+
         // Create and configure the panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
@@ -130,7 +131,8 @@ public class questionsPage {
         group4.add(radio4_5);
 
         // Next button to go to Page3
-            JButton nextButton = new JButton("صفحه بعد");
+        
+        JButton nextButton = new JButton("next page");
         nextButton.setFont(font);
         nextButton.setBounds(10, 320, 100, 20);
         nextButton.addActionListener(e -> {
