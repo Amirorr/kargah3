@@ -11,13 +11,9 @@ public class thankYouPage {
         JPanel panel = new JPanel();
         panel.setLayout(null);
         panel.setBounds(0, 0, 600, 600);
-
-        //creat class for font
-        Font font = new Font("serif" , Font.BOLD, 15);
-
+        
         // Create thank you label
-        JLabel thankYouLabel = new JLabel("با تشکر از مشارکت شما!");
-        thankYouLabel.setFont(font);
+        JLabel thankYouLabel = new JLabel("Thanks for your participation!");
         thankYouLabel.setBounds(10, 10, 500, 30);
 
         // Add components to the panel
