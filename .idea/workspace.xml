@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125e0d5-d1f9-4866-893e-8d3b26b1472e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kargah3/packages/questionsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kargah3/packages/questionsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-form/src/packages/questionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-form/src/packages/questionsPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="9125e0d5-d1f9-4866-893e-8d3b26b1472e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Amirorr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Amirorr/kargah3.git",
+    "accountId": "e52843ab-b434-4ace-b98a-298583fd8601"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -31,7 +38,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#5 on Merging change-fount",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/TTR/kargah3",
     "node.js.detected.package.eslint": "true",
@@ -72,6 +79,7 @@
       <updated>1740263482997</updated>
       <workItem from="1740263484245" duration="1305000" />
       <workItem from="1740270575057" duration="130000" />
+      <workItem from="1740932645183" duration="357000" />
     </task>
     <servers />
   </component>
